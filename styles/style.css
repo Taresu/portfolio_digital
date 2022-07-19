@@ -1,0 +1,85 @@
+* {
+    font-family: Verdana;
+}
+
+#title {
+    text-shadow: 5px 5px 10px rgb(3, 151, 250);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.profile {
+    border: dashed black;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+body {
+    padding: 30px;
+    max-width: 900px;
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat, repeat;
+    margin: auto;
+    font-
+}
+
+p {
+    font-style: italic;
+    margin: 0 0 25px 0;
+}
+
+.subtitle {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+    padding: 0 0 15px 15px;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    width: auto;
+}
+
+.post-title {
+    color: blueviolet;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#about-title {
+    color: red;
+}
+
+a:hover {
+    color: rgb(3, 151, 250);
+}
+
+a:active {
+    color: rgb(230, 6, 6);
+}
+
+hr {
+    margin: 15px 0 10px 0;
+    border-color: black;
+    height: 5px;
+    width: auto;
+}
+
+button {
+    border: none;
+    color: rgb(255, 0, 0);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+ul {
+    list-style: circle;
+    list-style-type: square;
+}
