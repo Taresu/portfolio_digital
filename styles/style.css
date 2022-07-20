@@ -21,7 +21,6 @@ body {
     background-image: url('/images/background.jpg');
     background-repeat: no-repeat, repeat;
     margin: auto;
-    font-
 }
 
 p {
@@ -83,3 +82,26 @@ ul {
     list-style: circle;
     list-style-type: square;
 }
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.icon-social {
+    display: flex;
+    list-style-type: none;
+    gap: 5vmin;
+    margin-right: 30px;
+}
+
+.facebook {}
+
+.linkedin {}
+
+.instagram {}
+
+.whatsapp {}
